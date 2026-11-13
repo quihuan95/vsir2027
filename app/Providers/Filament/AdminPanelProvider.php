@@ -27,7 +27,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->brandName('SIRHCM 2026 Admin')
+            ->brandName('VSIR 2027 Admin')
             ->colors([
                 'primary' => Color::hex('#ec1f23'),
             ])

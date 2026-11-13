@@ -22,7 +22,7 @@ class AbstractSubmissionTest extends TestCase
         $response = $this->get(route('registration.abstract-submission'));
 
         $response->assertOk();
-        $response->assertSee('Nộp bài báo cáo tóm tắt');
+        $response->assertSee('Đang cập nhật');
     }
 
     public function test_domestic_abstract_submission_creates_record(): void

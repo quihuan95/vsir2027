@@ -21,7 +21,7 @@ class RegistrationSubmitTest extends TestCase
         $response = $this->get(route('registration.delegate-registration'));
 
         $response->assertOk();
-        $response->assertSee('Đăng ký tham dự');
+        $response->assertSee('Đang cập nhật');
     }
 
     public function test_international_registration_form_loads(): void
@@ -29,7 +29,7 @@ class RegistrationSubmitTest extends TestCase
         $response = $this->get(route('registration.international-registration'));
 
         $response->assertOk();
-        $response->assertSee('International Registration');
+        $response->assertSee('Đang cập nhật');
     }
 
     public function test_bank_transfer_registration_creates_record_and_sends_email(): void

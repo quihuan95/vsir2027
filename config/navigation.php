@@ -20,14 +20,8 @@ return [
             'label_en' => 'Home',
         ],
         [
-            'url' => 'https://sirhcm.vn',
-            'label_vi' => 'Hội SIRHCM',
-            'label_en' => 'SIRHCM Society',
-            'external' => true,
-        ],
-        [
-            'label_vi' => 'SIRHCM 2026',
-            'label_en' => 'SIRHCM 2026',
+            'label_vi' => 'VSIR 2027',
+            'label_en' => 'VSIR 2027',
             'children' => [
                 ['route' => 'about.organizing-committee', 'label_vi' => 'Ban tổ chức', 'label_en' => 'Organizing Committee'],
                 ['route' => 'about.venue', 'label_vi' => 'Địa điểm tổ chức', 'label_en' => 'Venue'],
@@ -77,8 +71,7 @@ return [
     */
     'footer' => [
         ['route' => 'home', 'label' => 'Home'],
-        ['url' => 'https://sirhcm.vn', 'label' => 'SIRHCM Society', 'external' => true],
-        ['route' => 'about', 'label' => 'SIRHCM 2026'],
+        ['route' => 'about', 'label' => 'VSIR 2027'],
         ['route' => 'schedule', 'label' => 'Program'],
         ['route' => 'faculty', 'label' => 'Faculty'],
         ['route' => 'registration', 'label' => 'Registration'],

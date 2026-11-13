@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Manup Template">
-  <meta name="keywords" content="Manup, unica, creative, html">
+  <meta name="description" content="VSIR 2027">
+  <meta name="keywords" content="VSIR 2027">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SIRHCM2026 - @yield('title', 'HOME')</title>
+  <title>VSIR 2027 - @yield('title', 'HOME')</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&amp;display=swap" rel="stylesheet">

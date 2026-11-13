@@ -1,11 +1,6 @@
   <!-- Header Section Begin -->
   <header class="header-section">
     <div class="container">
-      <div class="logo">
-        <a href="{{ route('home') }}">
-          <img src="{{ Storage::url('img/logo.png') }}" alt="">
-        </a>
-      </div>
       <div class="nav-menu">
         <nav class="mainmenu mobile-menu">
           <ul>

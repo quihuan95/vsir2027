@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="{{ Storage::url('css/style.css') }}?v={{ @filemtime(storage_path('app/public/css/style.css')) }}" type="text/css">
   @stack('styles')
   @stack('header')
-  @vite('resources/js/app.js')
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>

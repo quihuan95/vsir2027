@@ -3,6 +3,10 @@
 !public/
 !public/css/
 !public/css/**
+!public/fonts/
+!public/fonts/**
 !public/img/
 !public/img/sponsor.jpg
+!public/js/
+!public/js/**
 !.gitignore

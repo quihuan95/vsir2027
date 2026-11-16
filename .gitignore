@@ -22,8 +22,12 @@
 !/storage/app/public/.gitignore
 !/storage/app/public/css/
 !/storage/app/public/css/**
+!/storage/app/public/fonts/
+!/storage/app/public/fonts/**
 !/storage/app/public/img/
 !/storage/app/public/img/sponsor.jpg
+!/storage/app/public/js/
+!/storage/app/public/js/**
 /storage/app/private/**
 !/storage/app/private/.gitignore
 /storage/*.key
